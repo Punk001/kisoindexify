@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Upload Price Data</title>
+</head>
+<body>
+  <h1>Upload Price Data</h1>
+  <form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <label for="price_data">Select Excel file:</label>
+    <input type="file" name="price_data" id="price_data">
+    <br>
+    <button type="submit">Upload</button>
+  </form>
+</body>
+</html>
+
+

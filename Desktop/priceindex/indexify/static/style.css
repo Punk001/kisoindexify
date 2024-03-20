@@ -1,0 +1,23 @@
+body {
+    background-color: #f5f5f5; /* Light gray background */
+  }
+  .card:hover {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow on hover */
+    transform: translateY(-2px); /* Slight upward movement on hover */
+  }
+  .btn-primary {
+    background-color: #28a745; /* Green color for primary button */
+    border-color: #28a745; /* Matching border color */
+  }
+  
+  .btn {
+    border-radius: 5px; /* Rounded corners for all buttons */
+  }
+  h1, h2, h3 {
+    font-weight: bold; /* Make headings bolder */
+  }
+  
+  p {
+    color: #333; /* Adjust text color for better readability */
+  }
+        
